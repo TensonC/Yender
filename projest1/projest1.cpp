@@ -78,7 +78,7 @@ void Init()
     terminal_open();
     terminal_set("window:title='Projest',size=50*30;input:mouse-cursor=true,filter=[keyboard,mouse]");
     terminal_composition(TK_ON);
-    //Title();
+    Title();
     terminal_layer(2);
     terminal_color(healthystatus[player.health]);
     terminal_put(player.x, player.y, player.img);
